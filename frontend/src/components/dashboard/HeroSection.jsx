@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <div className="glass-panel rounded-2xl p-8 mb-8 relative overflow-hidden mt-2 border border-white/40 shadow-lg">
       <div className="absolute top-0 right-0 -mt-16 -mr-16 w-64 h-64 bg-gradient-to-br from-[var(--color-accent)] to-[var(--color-status-green)] opacity-20 rounded-full blur-3xl animate-soft-pulse pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 -mb-16 -ml-16 w-48 h-48 bg-gradient-to-tr from-purple-400 to-indigo-300 opacity-20 rounded-full blur-2xl animate-float pointer-events-none"></div>
+      <div className="absolute bottom-0 left-0 -mb-16 -ml-16 w-48 h-48 bg-gradient-to-tr from-sky-300 to-blue-400 opacity-20 rounded-full blur-2xl animate-float pointer-events-none"></div>
       
       <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
         <div>

@@ -137,11 +137,11 @@ const MapTab = () => {
       
       <MapContainer center={[lat, lng]} zoom={13} style={{ height: '100%', width: '100%', background: 'transparent' }}>
         <TileLayer
-          attribution='Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+          attribution='Tiles &copy; Esri'
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
         />
         <TileLayer
-          url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
         />
         <MapUpdater lat={lat} lng={lng} />
         <MapClickHandler />

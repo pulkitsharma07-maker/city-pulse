@@ -1,27 +1,27 @@
 @import 'tailwindcss';
 
 :root {
-  /* Soft, light palette */
-  --color-base: #f8fafc;
-  --color-surface: rgba(255, 255, 255, 0.65);
-  --color-surface-hover: rgba(255, 255, 255, 0.85);
-  --color-text-primary: #1e293b;
-  --color-text-secondary: #475569;
-  --color-text-tertiary: #94a3b8;
+  /* Sleek Black and Blue palette */
+  --color-base: #020617;
+  --color-surface: rgba(15, 23, 42, 0.65);
+  --color-surface-hover: rgba(30, 41, 59, 0.85);
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-tertiary: #64748b;
   
-  /* Status colors soft/pastel */
+  /* Status colors bright for dark mode */
   --color-status-green: #34d399; 
   --color-status-amber: #fbbf24;
   --color-status-red: #fb7185; 
-  --color-status-grey: #cbd5e1;
+  --color-status-grey: #475569;
   
   /* Accents */
-  --color-accent: #6366f1; /* Soft indigo */
-  --color-border: rgba(255, 255, 255, 0.5);
+  --color-accent: #3b82f6; /* Electric Blue */
+  --color-border: rgba(255, 255, 255, 0.1);
 }
 
 body {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f3e8ff 100%);
+  background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #172554 100%);
   color: var(--color-text-primary);
   font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
   -webkit-font-smoothing: antialiased;
