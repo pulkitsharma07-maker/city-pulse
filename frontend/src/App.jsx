@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import TopBar from './components/layout/TopBar';
+import Footer from './components/layout/Footer';
 import TabNav from './components/layout/TabNav';
 import BottomNav from './components/layout/BottomNav';
 import OverviewTab from './components/dashboard/OverviewTab';
@@ -28,6 +29,7 @@ const AppContent = () => {
         {activeTab === 'history' && <HistoryTab />}
       </main>
       
+      <Footer />
       <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} />
       <Toast />
     </div>
