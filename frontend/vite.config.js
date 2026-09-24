@@ -10,15 +10,14 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Area Pulse',
-        short_name: 'AreaPulse',
-        description: 'Hyperlocal awareness dashboard for India',
-        theme_color: '#5B7B6A',
-        background_color: '#F7F3EA',
+        name: 'City Pulse',
+        short_name: 'CityPulse',
+        description: 'Real-time urban intelligence dashboard',
+        theme_color: '#4F46E5',
+        background_color: '#F8FAFC',
         display: 'standalone',
         icons: [
-          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' }
+          { src: '/vite.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' }
         ]
       }
     })
