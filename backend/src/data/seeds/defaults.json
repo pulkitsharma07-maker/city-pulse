@@ -1,0 +1,49 @@
+{
+    "defaults": {
+        "road_damage": {
+            "icon": "alert-triangle",
+            "status": "green",
+            "value": { "issues": 0 },
+            "summary": "No reported road damage",
+            "detail": {},
+            "source": { "type": "synthetic", "name": "Demo Data" },
+            "ai_blurb": "Roads seem clear in this area — no issues reported recently."
+        },
+        "traffic": {
+            "icon": "car",
+            "status": "amber",
+            "value": { "congestion": 50 },
+            "summary": "Moderate local traffic",
+            "detail": { "note": "Typical for this time of day" },
+            "source": { "type": "synthetic", "name": "Demo Data" },
+            "ai_blurb": "Traffic is about average for this time — nothing unusual."
+        },
+        "public_transit": {
+            "icon": "bus",
+            "status": "green",
+            "value": { "delays": 0 },
+            "summary": "Normal service",
+            "detail": {},
+            "source": { "type": "synthetic", "name": "Demo Data" },
+            "ai_blurb": "Public transport is running as expected."
+        },
+        "road_closures": {
+            "icon": "construction",
+            "status": "green",
+            "value": { "closed": 0 },
+            "summary": "No closures",
+            "detail": {},
+            "source": { "type": "synthetic", "name": "Demo Data" },
+            "ai_blurb": "All roads open — no detours needed."
+        },
+        "whats_happening": {
+            "icon": "newspaper",
+            "status": null,
+            "value": { "events": 0 },
+            "summary": "No major events nearby",
+            "detail": {},
+            "source": { "type": "synthetic", "name": "Demo Data" },
+            "ai_blurb": "It's a quiet day in the neighborhood."
+        }
+    }
+}

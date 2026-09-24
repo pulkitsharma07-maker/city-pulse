@@ -1,0 +1,55 @@
+{
+    "app_name":  "ஏரியா பல்ஸ்",
+    "tabs":  {
+                 "overview":  "கண்ணோட்டம்",
+                 "map":  "வரைபடம்",
+                 "history":  "வரலாறு"
+             },
+    "common":  {
+                   "view_more":  "மேலும் காண்க",
+                   "view_less":  "குறைவாக காண்க",
+                   "no_data":  "கிடைக்கவில்லை",
+                   "search_placeholder":  "பகுதி அல்லது வகையைத் தேடுக...",
+                   "live":  "நேரலை",
+                   "demo":  "டெமோ தரவு"
+               },
+    "status":  {
+                   "good":  "நன்று",
+                   "moderate":  "மிதமானது",
+                   "poor":  "மோசம்",
+                   "unavailable":  "கிடைக்கவில்லை",
+                   "green":  "நன்று",
+                   "amber":  "மிதமானது",
+                   "red":  "மோசம்"
+               },
+    "categories":  {
+                       "air_quality":  "காற்றின் தரம்",
+                       "weather":  "வானிலை",
+                       "road_damage":  "சாலை சேதம்",
+                       "traffic":  "போக்குவரத்து",
+                       "public_transit":  "போக்குவரத்து",
+                       "road_closures":  "மூடப்பட்டுள்ளது",
+                       "whats_happening":  "என்ன நடக்கிறது"
+                   },
+    "detail_keys":  {
+                        "time":  "Time",
+                        "recommendation":  "Recommendation",
+                        "reports":  "Reports",
+                        "type":  "Type",
+                        "closures":  "Closures",
+                        "title":  "Title",
+                        "location":  "Location",
+                        "description":  "Description",
+                        "expected_until":  "Expected Until",
+                        "speed_kmh":  "Speed (km/h)",
+                        "reason":  "Reason",
+                        "dominant":  "Dominant Pollutant",
+                        "severity":  "Severity",
+                        "humidity":  "Humidity",
+                        "note":  "Note",
+                        "lines":  "Transit Lines",
+                        "items":  "Items",
+                        "name":  "Name",
+                        "routes":  "Routes"
+                    }
+}

@@ -1,0 +1,11 @@
+{
+    "air_quality": [
+        {"date": "2023-01-01", "aqi": 150},
+        {"date": "2023-01-02", "aqi": 145}
+    ],
+    "traffic": [
+        {"time": "08:00", "congestion": 80},
+        {"time": "14:00", "congestion": 40},
+        {"time": "18:00", "congestion": 90}
+    ]
+}

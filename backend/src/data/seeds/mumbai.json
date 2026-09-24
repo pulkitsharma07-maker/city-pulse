@@ -1,0 +1,81 @@
+{
+    "road_damage": {
+        "icon": "alert-triangle",
+        "status": "red",
+        "value": { "issues": 12 },
+        "summary": "12 issues reported near Andheri",
+        "detail": {
+            "reports": [
+                { "type": "pothole", "location": "Western Express Highway, Andheri East", "severity": "high", "lat": 19.1136, "lng": 72.8697 },
+                { "type": "pothole", "location": "Sahar Road", "severity": "high", "lat": 19.1098, "lng": 72.8643 },
+                { "type": "waterlogging", "location": "Milan Subway", "severity": "high", "lat": 19.0927, "lng": 72.8447 },
+                { "type": "waterlogging", "location": "Andheri Subway", "severity": "high", "lat": 19.1205, "lng": 72.8445 },
+                { "type": "streetlight", "location": "SV Road, Jogeshwari", "severity": "low", "lat": 19.1418, "lng": 72.8465 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Heavy waterlogging reported at Milan and Andheri Subways. Avoid these routes if possible and expect severe slowdowns on WEH due to potholes."
+    },
+    "traffic": {
+        "icon": "car",
+        "status": "red",
+        "value": { "congestion": 92 },
+        "summary": "Gridlock on major highways",
+        "detail": {
+            "routes": [
+                { "road": "Western Express Highway", "status": "red", "speed_kmh": 6, "reason": "Waterlogging" },
+                { "road": "Eastern Express Highway", "status": "amber", "speed_kmh": 22, "reason": "Moderate flow" },
+                { "road": "JVLR", "status": "red", "speed_kmh": 8, "reason": "Accident" },
+                { "road": "Bandra-Worli Sea Link", "status": "green", "speed_kmh": 65, "reason": "Clear" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Typical Mumbai monsoon traffic — WEH and JVLR are practically at a standstill. The Sea Link is clear if you're heading south."
+    },
+    "public_transit": {
+        "icon": "bus",
+        "status": "red",
+        "value": { "delays": 4 },
+        "summary": "Major delays on Western Line",
+        "detail": {
+            "lines": [
+                { "name": "Western Line (Local)", "status": "red", "note": "20+ min delays due to track flooding" },
+                { "name": "Central Line (Local)", "status": "amber", "note": "10 min delays" },
+                { "name": "Harbour Line (Local)", "status": "green", "note": "Running normally" },
+                { "name": "Mumbai Metro Line 1", "status": "green", "note": "On time, crowded" },
+                { "name": "BEST Buses", "status": "red", "note": "Diverted routes around subways" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Western line trains are running 20 minutes late. Metro Line 1 is operating normally but expect massive crowds due to diverted commuters."
+    },
+    "road_closures": {
+        "icon": "construction",
+        "status": "amber",
+        "value": { "closed": 3 },
+        "summary": "3 active closures for Metro work",
+        "detail": {
+            "closures": [
+                { "road": "Gokhale Bridge (Andheri)", "reason": "Reconstruction", "expected_until": "Dec 2026", "lat": 19.1171, "lng": 72.8465 },
+                { "road": "DN Nagar Metro Station area", "reason": "Line 2A work", "expected_until": "Ongoing", "lat": 19.1248, "lng": 72.8318 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Gokhale Bridge remains closed, putting extra pressure on the Andheri subway which is currently waterlogged."
+    },
+    "whats_happening": {
+        "icon": "newspaper",
+        "status": null,
+        "value": { "events": 6 },
+        "summary": "High tide warning at 2:00 PM",
+        "detail": {
+            "items": [
+                { "type": "weather_alert", "title": "High Tide Alert", "description": "4.5m high tide expected at 2:00 PM. Avoid coastal areas.", "time": "2:00 PM" },
+                { "type": "event", "title": "Street Food Festival, Juhu", "description": "Local food vendors gathering at Juhu Beach", "time": "Evening" },
+                { "type": "civic", "title": "BMC Tree Pruning", "description": "Tree pruning on SV road, expect single lane traffic", "time": "Today" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Watch out for the high tide this afternoon! If you're heading to the Juhu street food festival this evening, take the metro to avoid SV road traffic."
+    }
+}

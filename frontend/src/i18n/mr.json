@@ -1,0 +1,55 @@
+{
+    "app_name":  "एरिया पल्स",
+    "tabs":  {
+                 "overview":  "आढावा",
+                 "map":  "नकाशा",
+                 "history":  "इतिहास"
+             },
+    "common":  {
+                   "view_more":  "अधिक पहा",
+                   "view_less":  "कमी पहा",
+                   "no_data":  "अनुपलब्ध",
+                   "search_placeholder":  "क्षेत्र किंवा श्रेणी शोधा...",
+                   "live":  "थेट",
+                   "demo":  "डेमो डेटा"
+               },
+    "status":  {
+                   "good":  "चांगले",
+                   "moderate":  "मध्यम",
+                   "poor":  "वाईट",
+                   "unavailable":  "अनुपलब्ध",
+                   "green":  "चांगले",
+                   "amber":  "मध्यम",
+                   "red":  "वाईट"
+               },
+    "categories":  {
+                       "air_quality":  "हवेची गुणवत्ता",
+                       "weather":  "हवामान",
+                       "road_damage":  "रस्त्यांचे नुकसान",
+                       "traffic":  "रहदारी",
+                       "public_transit":  "वाहतूक",
+                       "road_closures":  "बंद",
+                       "whats_happening":  "काय घडत आहे"
+                   },
+    "detail_keys":  {
+                        "time":  "Time",
+                        "recommendation":  "Recommendation",
+                        "reports":  "Reports",
+                        "type":  "Type",
+                        "closures":  "Closures",
+                        "title":  "Title",
+                        "location":  "Location",
+                        "description":  "Description",
+                        "expected_until":  "Expected Until",
+                        "speed_kmh":  "Speed (km/h)",
+                        "reason":  "Reason",
+                        "dominant":  "Dominant Pollutant",
+                        "severity":  "Severity",
+                        "humidity":  "Humidity",
+                        "note":  "Note",
+                        "lines":  "Transit Lines",
+                        "items":  "Items",
+                        "name":  "Name",
+                        "routes":  "Routes"
+                    }
+}

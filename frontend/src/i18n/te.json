@@ -1,0 +1,55 @@
+{
+    "app_name":  "ఏరియా పల్స్",
+    "tabs":  {
+                 "overview":  "అవలోకనం",
+                 "map":  "మ్యాప్",
+                 "history":  "చరిత్ర"
+             },
+    "common":  {
+                   "view_more":  "మరింత చూడండి",
+                   "view_less":  "తక్కువ చూడండి",
+                   "no_data":  "అందుబాటులో లేదు",
+                   "search_placeholder":  "ప్రాంతం లేదా వర్గం శోధించండి...",
+                   "live":  "లైవ్",
+                   "demo":  "డెమో డేటా"
+               },
+    "status":  {
+                   "good":  "మంచిది",
+                   "moderate":  "మధ్యస్థం",
+                   "poor":  "పేద",
+                   "unavailable":  "అందుబాటులో లేదు",
+                   "green":  "మంచిది",
+                   "amber":  "మధ్యస్థం",
+                   "red":  "పేద"
+               },
+    "categories":  {
+                       "air_quality":  "గాలి నాణ్యత",
+                       "weather":  "వాతావరణం",
+                       "road_damage":  "రహదారి నష్టం",
+                       "traffic":  "ట్రాఫిక్",
+                       "public_transit":  "రవాణా",
+                       "road_closures":  "మూసివేతలు",
+                       "whats_happening":  "ఏం జరుగుతోంది"
+                   },
+    "detail_keys":  {
+                        "time":  "Time",
+                        "recommendation":  "Recommendation",
+                        "reports":  "Reports",
+                        "type":  "Type",
+                        "closures":  "Closures",
+                        "title":  "Title",
+                        "location":  "Location",
+                        "description":  "Description",
+                        "expected_until":  "Expected Until",
+                        "speed_kmh":  "Speed (km/h)",
+                        "reason":  "Reason",
+                        "dominant":  "Dominant Pollutant",
+                        "severity":  "Severity",
+                        "humidity":  "Humidity",
+                        "note":  "Note",
+                        "lines":  "Transit Lines",
+                        "items":  "Items",
+                        "name":  "Name",
+                        "routes":  "Routes"
+                    }
+}

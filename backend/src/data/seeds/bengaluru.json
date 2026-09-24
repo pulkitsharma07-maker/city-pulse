@@ -1,0 +1,80 @@
+{
+    "road_damage": {
+        "icon": "alert-triangle",
+        "status": "red",
+        "value": { "issues": 15 },
+        "summary": "15 issues reported near Koramangala",
+        "detail": {
+            "reports": [
+                { "type": "pothole", "location": "Outer Ring Road, Bellandur", "severity": "high", "lat": 12.9255, "lng": 77.6687 },
+                { "type": "pothole", "location": "Sony World Signal", "severity": "high", "lat": 12.9354, "lng": 77.6244 },
+                { "type": "pothole", "location": "Hosur Road near Silk Board", "severity": "high", "lat": 12.9177, "lng": 77.6238 },
+                { "type": "waterlogging", "location": "HSR Layout Sector 3", "severity": "medium", "lat": 12.9116, "lng": 77.6389 },
+                { "type": "streetlight", "location": "Indiranagar 100ft Road", "severity": "low", "lat": 12.9784, "lng": 77.6408 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "The ORR stretch near Bellandur is riddled with potholes. Two-wheeler riders should exercise extreme caution, especially near Silk Board."
+    },
+    "traffic": {
+        "icon": "car",
+        "status": "red",
+        "value": { "congestion": 95 },
+        "summary": "Severe congestion at Silk Board",
+        "detail": {
+            "routes": [
+                { "road": "Outer Ring Road (ORR)", "status": "red", "speed_kmh": 4, "reason": "Tech park rush" },
+                { "road": "Silk Board Junction", "status": "red", "speed_kmh": 2, "reason": "Gridlock" },
+                { "road": "Hosur Road", "status": "red", "speed_kmh": 8, "reason": "Heavy volume" },
+                { "road": "NICE Road", "status": "green", "speed_kmh": 70, "reason": "Clear" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Silk Board and ORR are completely jammed. If you're leaving the office now, you might want to wait it out or take the Metro if possible."
+    },
+    "public_transit": {
+        "icon": "bus",
+        "status": "amber",
+        "value": { "delays": 2 },
+        "summary": "BMTC buses delayed on ORR",
+        "detail": {
+            "lines": [
+                { "name": "Namma Metro (Purple Line)", "status": "green", "note": "Running normally, very crowded" },
+                { "name": "Namma Metro (Green Line)", "status": "green", "note": "Running normally" },
+                { "name": "BMTC 500D (Silk Board - Hebbal)", "status": "red", "note": "30+ min delay due to traffic" },
+                { "name": "BMTC Volvo routes", "status": "amber", "note": "Slow moving" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Take the Purple Line if you can — it's crowded but moving. BMTC buses on ORR are stuck in the same gridlock as everyone else."
+    },
+    "road_closures": {
+        "icon": "construction",
+        "status": "amber",
+        "value": { "closed": 4 },
+        "summary": "Metro Phase 2A construction",
+        "detail": {
+            "closures": [
+                { "road": "ORR Service Road (Bellandur)", "reason": "Metro pillar construction", "expected_until": "Dec 2025", "lat": 12.9285, "lng": 77.6740 },
+                { "road": "Bannerghatta Road (partial)", "reason": "Pink Line tunneling", "expected_until": "2026", "lat": 12.9145, "lng": 77.5995 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Long-term Metro construction continues to restrict lanes on ORR and Bannerghatta Road."
+    },
+    "whats_happening": {
+        "icon": "newspaper",
+        "status": null,
+        "value": { "events": 8 },
+        "summary": "Startup meetup in Koramangala",
+        "detail": {
+            "items": [
+                { "type": "event", "title": "AI Builders Meetup", "description": "Large gathering of developers at Third Wave Coffee, Koramangala", "time": "6:00 PM" },
+                { "type": "event", "title": "Flea Market, Jayamahal Palace", "description": "Weekend flea market with live music", "time": "All Day" },
+                { "type": "civic", "title": "BESCOM Power Cut", "description": "Scheduled outage in HSR Layout Sector 1 & 2", "time": "10 AM - 2 PM tomorrow" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Koramangala is busy with tech meetups tonight! HSR residents, charge your devices — BESCOM has announced power cuts for tomorrow morning."
+    }
+}

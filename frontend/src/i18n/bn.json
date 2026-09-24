@@ -1,0 +1,55 @@
+{
+    "app_name":  "এরিয়া পালস",
+    "tabs":  {
+                 "overview":  "সংক্ষিপ্ত বিবরণ",
+                 "map":  "মানচিত্র",
+                 "history":  "ইতিহাস"
+             },
+    "common":  {
+                   "view_more":  "আরও দেখুন",
+                   "view_less":  "কম দেখুন",
+                   "no_data":  "পাওয়া যায়নি",
+                   "search_placeholder":  "এলাকা বা বিভাগ অনুসন্ধান করুন...",
+                   "live":  "লাইভ",
+                   "demo":  "ডেমো ডেটা"
+               },
+    "status":  {
+                   "good":  "ভাল",
+                   "moderate":  "মাঝারি",
+                   "poor":  "খারাপ",
+                   "unavailable":  "পাওয়া যায়নি",
+                   "green":  "ভাল",
+                   "amber":  "মাঝারি",
+                   "red":  "খারাপ"
+               },
+    "categories":  {
+                       "air_quality":  "বায়ুর মান",
+                       "weather":  "আবহাওয়া",
+                       "road_damage":  "রাস্তার ক্ষতি",
+                       "traffic":  "ট্রাফিক",
+                       "public_transit":  "পরিবহন",
+                       "road_closures":  "রাস্তা বন্ধ",
+                       "whats_happening":  "কি ঘটছে"
+                   },
+    "detail_keys":  {
+                        "time":  "Time",
+                        "recommendation":  "Recommendation",
+                        "reports":  "Reports",
+                        "type":  "Type",
+                        "closures":  "Closures",
+                        "title":  "Title",
+                        "location":  "Location",
+                        "description":  "Description",
+                        "expected_until":  "Expected Until",
+                        "speed_kmh":  "Speed (km/h)",
+                        "reason":  "Reason",
+                        "dominant":  "Dominant Pollutant",
+                        "severity":  "Severity",
+                        "humidity":  "Humidity",
+                        "note":  "Note",
+                        "lines":  "Transit Lines",
+                        "items":  "Items",
+                        "name":  "Name",
+                        "routes":  "Routes"
+                    }
+}

@@ -1,0 +1,55 @@
+{
+  "app_name": "एरिया पल्स",
+  "tabs": {
+    "overview": "अवलोकन",
+    "map": "नक्शा",
+    "history": "इतिहास"
+  },
+  "common": {
+    "view_more": "और देखें",
+    "view_less": "कम देखें",
+    "no_data": "अनुपलब्ध",
+    "search_placeholder": "क्षेत्र या श्रेणी खोजें...",
+    "live": "लाइव",
+    "demo": "डेमो डेटा"
+  },
+  "status": {
+    "good": "अच्छा",
+    "moderate": "मध्यम",
+    "poor": "खराब",
+    "unavailable": "अनुपलब्ध",
+    "green": "अच्छा",
+    "amber": "मध्यम",
+    "red": "खराब"
+  },
+  "categories": {
+    "air_quality": "वायु गुणवत्ता",
+    "weather": "मौसम",
+    "road_damage": "सड़क की स्थिति",
+    "traffic": "यातायात",
+    "public_transit": "सार्वजनिक परिवहन",
+    "road_closures": "सड़क बंद",
+    "whats_happening": "क्या हो रहा है"
+  },
+  "detail_keys": {
+    "reports": "रिपोर्ट",
+    "routes": "मार्ग",
+    "lines": "ट्रांजिट लाइनें",
+    "closures": "बंद रास्ते",
+    "items": "आइटम",
+    "speed_kmh": "गति (किमी/घंटा)",
+    "reason": "कारण",
+    "location": "स्थान",
+    "severity": "गंभीरता",
+    "type": "प्रकार",
+    "time": "समय",
+    "description": "विवरण",
+    "title": "शीर्षक",
+    "name": "नाम",
+    "note": "नोट",
+    "expected_until": "कब तक",
+    "humidity": "नमी",
+    "dominant": "मुख्य प्रदूषक",
+    "recommendation": "सिफारिश"
+  }
+}

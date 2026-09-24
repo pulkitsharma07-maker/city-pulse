@@ -1,0 +1,55 @@
+{
+    "app_name":  "ಏರಿಯಾ ಪಲ್ಸ್",
+    "tabs":  {
+                 "overview":  "ಅವಲೋಕನ",
+                 "map":  "ನಕ್ಷೆ",
+                 "history":  "ಇತಿಹಾಸ"
+             },
+    "common":  {
+                   "view_more":  "ಇನ್ನಷ್ಟು ವೀಕ್ಷಿಸಿ",
+                   "view_less":  "ಕಡಿಮೆ ವೀಕ್ಷಿಸಿ",
+                   "no_data":  "ಲಭ್ಯವಿಲ್ಲ",
+                   "search_placeholder":  "ಪ್ರದೇಶ ಅಥವಾ ವರ್ಗವನ್ನು ಹುಡುಕಿ...",
+                   "live":  "ಲೈವ್",
+                   "demo":  "ಡೆಮೊ ಡೇಟಾ"
+               },
+    "status":  {
+                   "good":  "ಉತ್ತಮ",
+                   "moderate":  "ಮಧ್ಯಮ",
+                   "poor":  "ಕಳಪೆ",
+                   "unavailable":  "ಲಭ್ಯವಿಲ್ಲ",
+                   "green":  "ಉತ್ತಮ",
+                   "amber":  "ಮಧ್ಯಮ",
+                   "red":  "ಕಳಪೆ"
+               },
+    "categories":  {
+                       "air_quality":  "ಗಾಳಿಯ ಗುಣಮಟ್ಟ",
+                       "weather":  "ಹವಾಮಾನ",
+                       "road_damage":  "ರಸ್ತೆ ಹಾನಿ",
+                       "traffic":  "ಸಂಚಾರ",
+                       "public_transit":  "ಸಾರಿಗೆ",
+                       "road_closures":  "ಮುಚ್ಚಲಾಗಿದೆ",
+                       "whats_happening":  "ಏನಾಗುತ್ತಿದೆ"
+                   },
+    "detail_keys":  {
+                        "time":  "Time",
+                        "recommendation":  "Recommendation",
+                        "reports":  "Reports",
+                        "type":  "Type",
+                        "closures":  "Closures",
+                        "title":  "Title",
+                        "location":  "Location",
+                        "description":  "Description",
+                        "expected_until":  "Expected Until",
+                        "speed_kmh":  "Speed (km/h)",
+                        "reason":  "Reason",
+                        "dominant":  "Dominant Pollutant",
+                        "severity":  "Severity",
+                        "humidity":  "Humidity",
+                        "note":  "Note",
+                        "lines":  "Transit Lines",
+                        "items":  "Items",
+                        "name":  "Name",
+                        "routes":  "Routes"
+                    }
+}

@@ -1,0 +1,83 @@
+{
+    "road_damage": {
+        "icon": "alert-triangle",
+        "status": "red",
+        "value": { "issues": 8 },
+        "summary": "8 issues reported in South Delhi",
+        "detail": {
+            "reports": [
+                { "type": "pothole", "location": "Ring Road near AIIMS", "severity": "high" },
+                { "type": "pothole", "location": "Outer Ring Road, Nehru Place", "severity": "high" },
+                { "type": "waterlogging", "location": "ITO Underpass", "severity": "high" },
+                { "type": "streetlight", "location": "Connaught Place Block B", "severity": "medium" },
+                { "type": "pothole", "location": "Lajpat Nagar flyover", "severity": "medium" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Several problem spots today — ITO underpass has waterlogging and Ring Road near AIIMS has deep potholes. Take alternate routes if possible."
+    },
+    "traffic": {
+        "icon": "car",
+        "status": "red",
+        "value": { "congestion": 88 },
+        "summary": "Heavy congestion across Central Delhi",
+        "detail": {
+            "routes": [
+                { "road": "Ring Road", "status": "red", "speed_kmh": 8 },
+                { "road": "Vikas Marg", "status": "red", "speed_kmh": 12 },
+                { "road": "NH-44 (GT Road)", "status": "amber", "speed_kmh": 22 },
+                { "road": "Mehrauli-Badarpur Road", "status": "amber", "speed_kmh": 20 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Delhi traffic is at its usual evening worst — Ring Road and Vikas Marg are crawling. Metro might be your best friend right now."
+    },
+    "public_transit": {
+        "icon": "bus",
+        "status": "amber",
+        "value": { "delays": 3 },
+        "summary": "Minor delays on Blue & Yellow lines",
+        "detail": {
+            "lines": [
+                { "name": "Blue Line (Dwarka - Noida)", "status": "amber", "note": "8 min delays" },
+                { "name": "Yellow Line (Samaypur Badli - HUDA)", "status": "amber", "note": "5 min delays" },
+                { "name": "Red Line", "status": "green", "note": "On time" },
+                { "name": "Violet Line", "status": "green", "note": "On time" },
+                { "name": "DTC Buses", "status": "amber", "note": "Irregular frequency" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Metro Blue and Yellow lines have minor delays — factor in an extra 10 minutes if you're using these."
+    },
+    "road_closures": {
+        "icon": "construction",
+        "status": "amber",
+        "value": { "closed": 3 },
+        "summary": "3 closures — Rajpath area restricted",
+        "detail": {
+            "closures": [
+                { "road": "Kartavya Path (Rajpath)", "reason": "Republic Day rehearsals prep", "expected_until": "Next week" },
+                { "road": "Chandni Chowk (partial)", "reason": "Pedestrianization project", "expected_until": "Ongoing" },
+                { "road": "Bahadur Shah Zafar Marg", "reason": "Metro construction", "expected_until": "3 months" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Kartavya Path is restricted for event preparations, and Chandni Chowk remains partially closed for the pedestrianization work."
+    },
+    "whats_happening": {
+        "icon": "newspaper",
+        "status": null,
+        "value": { "events": 4 },
+        "summary": "India Gate evening crowds expected",
+        "detail": {
+            "items": [
+                { "type": "event", "title": "Evening at India Gate", "description": "Popular weekend spot — expect crowds and food stalls", "time": "Evening" },
+                { "type": "civic", "title": "Odd-Even advisory next week", "description": "Delhi government considering odd-even restrictions due to air quality", "time": "Next week" },
+                { "type": "news", "title": "New Metro station opens at Tughlaqabad", "description": "Violet Line extension adds convenient access to South Delhi", "time": "Today" },
+                { "type": "weather_alert", "title": "Smog advisory", "description": "Visibility may drop below 200m in early morning hours", "time": "Tomorrow morning" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "India Gate will be packed this evening. Also worth noting — smog advisory for tomorrow morning, so keep windows closed overnight."
+    }
+}

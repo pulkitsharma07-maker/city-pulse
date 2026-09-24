@@ -1,0 +1,106 @@
+@import 'tailwindcss';
+
+:root {
+  /* Soft, light palette */
+  --color-base: #f8fafc;
+  --color-surface: rgba(255, 255, 255, 0.65);
+  --color-surface-hover: rgba(255, 255, 255, 0.85);
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #475569;
+  --color-text-tertiary: #94a3b8;
+  
+  /* Status colors soft/pastel */
+  --color-status-green: #34d399; 
+  --color-status-amber: #fbbf24;
+  --color-status-red: #fb7185; 
+  --color-status-grey: #cbd5e1;
+  
+  /* Accents */
+  --color-accent: #6366f1; /* Soft indigo */
+  --color-border: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f3e8ff 100%);
+  color: var(--color-text-primary);
+  font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.high-contrast {
+  --color-base: #121212;
+  --color-surface: rgba(30, 30, 30, 0.8);
+  --color-surface-hover: rgba(44, 44, 44, 0.9);
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #E0E0E0;
+  --color-text-tertiary: #B0B0B0;
+  --color-status-green: #4ADE80;
+  --color-status-amber: #FACC15;
+  --color-status-red: #F87171;
+  --color-status-grey: #9CA3AF;
+  --color-accent: #2DD4BF;
+  --color-border: rgba(255, 255, 255, 0.1);
+  background: #121212;
+}
+
+.font-small { font-size: 0.875rem; }
+.font-normal { font-size: 1rem; }
+.font-large { font-size: 1.125rem; }
+
+/* Map styles */
+.leaflet-container {
+  font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+  z-index: 10;
+  background: transparent !important;
+}
+
+/* Glass panel utility */
+.glass-panel {
+  background: var(--color-surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.05);
+}
+
+.glass-panel:hover {
+  background: var(--color-surface-hover);
+}
+
+/* Animations */
+@keyframes softPulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-tertiary);
+}
+.animate-soft-pulse {
+  animation: softPulse 3s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s infinite ease-in-out;
+}

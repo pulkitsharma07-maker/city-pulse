@@ -1,0 +1,84 @@
+{
+    "road_damage": {
+        "icon": "alert-triangle",
+        "status": "amber",
+        "value": { "issues": 5 },
+        "summary": "5 issues reported nearby",
+        "detail": {
+            "reports": [
+                { "type": "pothole", "location": "MI Road near Panch Batti", "severity": "high", "lat": 26.9170, "lng": 75.7960 },
+                { "type": "pothole", "location": "Tonk Road near Durgapura", "severity": "medium", "lat": 26.8650, "lng": 75.7970 },
+                { "type": "streetlight", "location": "Malviya Nagar Sector 4", "severity": "low", "lat": 26.8535, "lng": 75.8090 },
+                { "type": "waterlogging", "location": "Mansarovar Metro Station area", "severity": "medium", "lat": 26.8700, "lng": 75.7500 },
+                { "type": "pothole", "location": "Ajmer Road near Panchyawala", "severity": "high", "lat": 26.9270, "lng": 75.7340 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "A few stretches need extra caution today — MI Road and Tonk Road have some potholes, and there's waterlogging near Mansarovar Metro after yesterday's rain."
+    },
+    "traffic": {
+        "icon": "car",
+        "status": "red",
+        "value": { "congestion": 78 },
+        "summary": "Heavy congestion on JLN Marg",
+        "detail": {
+            "routes": [
+                { "road": "JLN Marg", "status": "red", "speed_kmh": 12, "reason": "Rush hour" },
+                { "road": "Tonk Road", "status": "red", "speed_kmh": 15, "reason": "School zone traffic" },
+                { "road": "MI Road", "status": "amber", "speed_kmh": 25, "reason": "Moderate flow" },
+                { "road": "Ajmer Road", "status": "amber", "speed_kmh": 28, "reason": "Construction zone" },
+                { "road": "Sikar Road", "status": "green", "speed_kmh": 45, "reason": "Clear" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "It's peak evening hours — JLN Marg and Tonk Road are crawling. Consider Sikar Road or wait 30 minutes for traffic to ease."
+    },
+    "public_transit": {
+        "icon": "bus",
+        "status": "green",
+        "value": { "delays": 1 },
+        "summary": "Running normally, minor delay on Route 12",
+        "detail": {
+            "lines": [
+                { "name": "Route 2 (Railway Station - Vidyadhar Nagar)", "status": "green", "note": "On time" },
+                { "name": "Route 5 (Badi Chopar - Sanganer)", "status": "green", "note": "On time" },
+                { "name": "Route 12 (Mansarovar - Amer)", "status": "amber", "note": "5 min delay" },
+                { "name": "Jaipur Metro - Pink Line", "status": "green", "note": "Running normally" },
+                { "name": "Jaipur Metro - Blue Line (Phase 1)", "status": "green", "note": "Running normally" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Public transit is mostly smooth today. Route 12 to Amer has a small delay — plan accordingly if you're heading to the fort."
+    },
+    "road_closures": {
+        "icon": "construction",
+        "status": "amber",
+        "value": { "closed": 2 },
+        "summary": "2 closures near C-Scheme",
+        "detail": {
+            "closures": [
+                { "road": "Sawai Ram Singh Road (near Albert Hall)", "reason": "Cultural festival setup", "expected_until": "10:00 PM today", "lat": 26.9115, "lng": 75.8034 },
+                { "road": "Johri Bazaar (partial)", "reason": "Heritage walk event", "expected_until": "8:00 PM today", "lat": 26.9243, "lng": 75.8266 }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "Two road closures tonight near the old city — there's a cultural event near Albert Hall and a heritage walk in Johri Bazaar. Both should reopen by late evening."
+    },
+    "whats_happening": {
+        "icon": "newspaper",
+        "status": null,
+        "value": { "events": 5 },
+        "summary": "Heritage walk in Johri Bazaar tonight",
+        "detail": {
+            "items": [
+                { "type": "event", "title": "Heritage Walk: Johri Bazaar & Hawa Mahal", "description": "Free guided walk exploring the old city's jewelry market and iconic Wind Palace", "time": "6:30 PM" },
+                { "type": "event", "title": "Cultural Evening at Albert Hall Museum", "description": "Live Rajasthani folk music and dance performance in the museum grounds", "time": "7:00 PM" },
+                { "type": "civic", "title": "Water supply disruption in Vaishali Nagar", "description": "Scheduled maintenance — supply affected from 10 AM to 2 PM tomorrow", "time": "Tomorrow" },
+                { "type": "news", "title": "Jaipur Metro Phase 2 progress update", "description": "Tunnel boring between Bani Park and Chandpole reaches 60% completion", "time": "Today" },
+                { "type": "weather_alert", "title": "Light rain expected tonight", "description": "IMD predicts scattered showers between 9 PM and midnight", "time": "Tonight" }
+            ]
+        },
+        "source": { "type": "synthetic", "name": "Demo Data" },
+        "ai_blurb": "The old city is buzzing tonight — there's a heritage walk and a cultural evening worth checking out. Also heads up: Vaishali Nagar residents, expect a water supply break tomorrow morning."
+    }
+}

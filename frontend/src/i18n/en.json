@@ -1,0 +1,55 @@
+{
+    "app_name":  "Area Pulse",
+    "tabs":  {
+                 "overview":  "Overview",
+                 "map":  "Map",
+                 "history":  "History"
+             },
+    "common":  {
+                   "view_more":  "View more",
+                   "view_less":  "View less",
+                   "no_data":  "Unavailable",
+                   "search_placeholder":  "Search area or category...",
+                   "live":  "Live",
+                   "demo":  "Demo Data"
+               },
+    "status":  {
+                   "good":  "Good",
+                   "moderate":  "Moderate",
+                   "poor":  "Poor",
+                   "unavailable":  "Unavailable",
+                   "green":  "Good",
+                   "amber":  "Moderate",
+                   "red":  "Poor"
+               },
+    "categories":  {
+                       "air_quality":  "Air Quality",
+                       "weather":  "Weather",
+                       "road_damage":  "Road Damage",
+                       "traffic":  "Traffic",
+                       "public_transit":  "Public Transit",
+                       "road_closures":  "Road Closures",
+                       "whats_happening":  "What\u0027s Happening"
+                   },
+    "detail_keys":  {
+                        "time":  "Time",
+                        "recommendation":  "Recommendation",
+                        "reports":  "Reports",
+                        "type":  "Type",
+                        "closures":  "Closures",
+                        "title":  "Title",
+                        "location":  "Location",
+                        "description":  "Description",
+                        "expected_until":  "Expected Until",
+                        "speed_kmh":  "Speed (km/h)",
+                        "reason":  "Reason",
+                        "dominant":  "Dominant Pollutant",
+                        "severity":  "Severity",
+                        "humidity":  "Humidity",
+                        "note":  "Note",
+                        "lines":  "Transit Lines",
+                        "items":  "Items",
+                        "name":  "Name",
+                        "routes":  "Routes"
+                    }
+}
