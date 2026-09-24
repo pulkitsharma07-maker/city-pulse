@@ -1,13 +1,13 @@
 @import 'tailwindcss';
 
 :root {
-  /* Soft, light palette */
-  --color-base: #f8fafc;
-  --color-surface: rgba(255, 255, 255, 0.65);
-  --color-surface-hover: rgba(255, 255, 255, 0.85);
-  --color-text-primary: #1e293b;
-  --color-text-secondary: #475569;
-  --color-text-tertiary: #94a3b8;
+  /* Crisp Blue and White palette */
+  --color-base: #ffffff;
+  --color-surface: rgba(255, 255, 255, 0.75);
+  --color-surface-hover: rgba(255, 255, 255, 0.95);
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #334155;
+  --color-text-tertiary: #64748b;
   
   /* Status colors soft/pastel */
   --color-status-green: #34d399; 
@@ -16,12 +16,12 @@
   --color-status-grey: #cbd5e1;
   
   /* Accents */
-  --color-accent: #6366f1; /* Soft indigo */
-  --color-border: rgba(255, 255, 255, 0.5);
+  --color-accent: #0ea5e9; /* Sky Blue */
+  --color-border: rgba(255, 255, 255, 0.8);
 }
 
 body {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f3e8ff 100%);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
   color: var(--color-text-primary);
   font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
   -webkit-font-smoothing: antialiased;
