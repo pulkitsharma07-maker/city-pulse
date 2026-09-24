@@ -122,3 +122,5 @@ dist
 
 # Windows hidden files
 Thumbs.db
+
+.vercel
