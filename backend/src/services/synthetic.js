@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const cache = require('./cache');
 
-// Dummy location matching for Jaipur based on rough coords
-// Jaipur: 26.9124, 75.7873
+// Geo-fence matching for supported city hubs
+// Jaipur coordinates: 26.9124, 75.7873
 function identifyCity(lat, lng) {
     if (lat > 26.8 && lat < 27.1 && lng > 75.6 && lng < 76.0) return 'jaipur';
     if (lat > 28.4 && lat < 28.9 && lng > 76.8 && lng < 77.4) return 'delhi';

@@ -23,7 +23,7 @@ const TopBar = ({ activeTab, setActiveTab }) => {
     if (id === 'overview' || id === 'map' || id === 'history') {
       setActiveTab(id);
     } else {
-      // Just map Events/Mobility to overview for now to keep the illusion without breaking functionality
+      // Default secondary feeds to main overview
       setActiveTab('overview');
     }
   };

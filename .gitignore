@@ -124,3 +124,9 @@ dist
 Thumbs.db
 
 .vercel
+
+# Local hackathon artifacts
+*.pdf
+amihacks-demo-guide.md
+theme.jpeg
+frontend/make-icons.cjs
