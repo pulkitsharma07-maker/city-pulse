@@ -1,33 +1,51 @@
 @import 'tailwindcss';
 
 :root {
-  /* Sleek Black and Blue palette */
-  --color-base: #020617;
-  --color-surface: rgba(15, 23, 42, 0.65);
-  --color-surface-hover: rgba(30, 41, 59, 0.85);
-  --color-text-primary: #f8fafc;
-  --color-text-secondary: #94a3b8;
-  --color-text-tertiary: #64748b;
+  /* Chameleon State: Sunset View Palette */
+  --color-base: #0f172a; /* Slate 900 base fallback */
+  --color-surface: rgba(255, 255, 255, 0.1); /* bg-white/10 */
+  --color-surface-hover: rgba(255, 255, 255, 0.15);
+  --color-text-primary: #fffbeb; /* amber-50 */
+  --color-text-secondary: #fcd34d; /* amber-300 */
+  --color-text-tertiary: #d97706; /* orange-600 */
   
-  /* Status colors bright for dark mode */
-  --color-status-green: #34d399; 
-  --color-status-amber: #fbbf24;
-  --color-status-red: #fb7185; 
-  --color-status-grey: #475569;
+  /* Status tags matching the prompt */
+  --color-status-green: #6ee7b7; /* emerald-300 */
+  --color-status-amber: #fcd34d; /* amber-300 */
+  --color-status-red: #fca5a5; /* red-300 */
+  --color-status-grey: #cbd5e1; /* slate-300 */
   
   /* Accents */
-  --color-accent: #3b82f6; /* Electric Blue */
-  --color-border: rgba(255, 255, 255, 0.1);
+  --color-accent: #f59e0b; /* amber-500 */
+  --color-border: rgba(255, 255, 255, 0.2); /* border-white/20 */
 }
 
 body {
-  background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #172554 100%);
+  @apply bg-gradient-to-br from-amber-800 via-orange-700 to-slate-900;
   color: var(--color-text-primary);
   font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   background-attachment: fixed;
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-xl transition-all duration-300;
+  }
+  
+  .glass-panel:hover {
+    @apply bg-white/20 shadow-2xl;
+  }
+  
+  .status-badge-green {
+    @apply bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-1 rounded-full text-xs font-semibold;
+  }
+  
+  .status-badge-amber {
+    @apply bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-1 rounded-full text-xs font-semibold;
+  }
 }
 
 .high-contrast {
@@ -41,7 +59,7 @@ body {
   --color-status-amber: #FACC15;
   --color-status-red: #F87171;
   --color-status-grey: #9CA3AF;
-  --color-accent: #2DD4BF;
+  --color-accent: #f59e0b;
   --color-border: rgba(255, 255, 255, 0.1);
   background: #121212;
 }
@@ -57,25 +75,27 @@ body {
   background: transparent !important;
 }
 
-/* Glass panel utility */
-.glass-panel {
-  background: var(--color-surface);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--color-border);
-  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.05);
-}
-
-.glass-panel:hover {
-  background: var(--color-surface-hover);
-}
-
 /* Animations */
 @keyframes softPulse {
   0% { transform: scale(1); opacity: 0.8; }
   50% { transform: scale(1.1); opacity: 1; }
   100% { transform: scale(1); opacity: 0.8; }
 }
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 3s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: float 6s infinite ease-in-out;
+}
+
 /* Custom Scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
@@ -90,17 +110,4 @@ body {
 }
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: var(--color-text-tertiary);
-}
-.animate-soft-pulse {
-  animation: softPulse 3s infinite ease-in-out;
-}
-
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-5px); }
-  100% { transform: translateY(0px); }
-}
-
-.animate-float {
-  animation: float 6s infinite ease-in-out;
 }
